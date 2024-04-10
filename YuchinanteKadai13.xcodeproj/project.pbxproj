@@ -13,6 +13,7 @@
 		4FE6E96C2BC571E9008F2352 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4FE6E96B2BC571E9008F2352 /* Base */; };
 		4FE6E96E2BC571EA008F2352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE6E96D2BC571EA008F2352 /* Assets.xcassets */; };
 		4FE6E9712BC571EA008F2352 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4FE6E9702BC571EA008F2352 /* Base */; };
+		4FE6E9792BC5A332008F2352 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE6E9782BC5A332008F2352 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4FE6E96D2BC571EA008F2352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FE6E9702BC571EA008F2352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FE6E9722BC571EA008F2352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE6E9782BC5A332008F2352 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4FE6E9642BC571E9008F2352 /* AppDelegate.swift */,
 				4FE6E9662BC571E9008F2352 /* SceneDelegate.swift */,
 				4FE6E9682BC571E9008F2352 /* ViewController.swift */,
+				4FE6E9782BC5A332008F2352 /* TableViewCell.swift */,
 				4FE6E96A2BC571E9008F2352 /* Main.storyboard */,
 				4FE6E96D2BC571EA008F2352 /* Assets.xcassets */,
 				4FE6E96F2BC571EA008F2352 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FE6E9692BC571E9008F2352 /* ViewController.swift in Sources */,
+				4FE6E9792BC5A332008F2352 /* TableViewCell.swift in Sources */,
 				4FE6E9652BC571E9008F2352 /* AppDelegate.swift in Sources */,
 				4FE6E9672BC571E9008F2352 /* SceneDelegate.swift in Sources */,
 			);
