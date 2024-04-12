@@ -11,11 +11,11 @@ import UIKit
 class ViewController: UITableViewController {
 
     // UserDefaultsに保存するキー名
-    let KeyName = "Name"
-    let KeyCheck = "Check"
+    private let KeyName = "Name"
+    private let KeyCheck = "Check"
 
     // テーブルビューに表示するアイテムの配列
-    var items: [Dictionary<String,Any>] = []
+    private var items: [[String: Any]] = []
 
     // 画面がロードされた時の処理
     override func viewDidLoad() {
@@ -23,16 +23,11 @@ class ViewController: UITableViewController {
 
         // アイテムの初期化
         self.items = [
-            [KeyName:"りんご", KeyCheck:false],
-            [KeyName:"みかん", KeyCheck:true],
-            [KeyName:"バナナ", KeyCheck:false],
-            [KeyName:"パイナップル", KeyCheck:true],
+            [KeyName: "りんご", KeyCheck: false],
+            [KeyName: "みかん", KeyCheck: true],
+            [KeyName: "バナナ", KeyCheck: false],
+            [KeyName: "パイナップル", KeyCheck: true]
         ]
-    }
-
-    // セクションの数を返すメソッド
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
     }
 
     // セルの数を返すメソッド
